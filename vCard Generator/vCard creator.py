@@ -1,7 +1,7 @@
 import os
 import pandas as pd
-filepath = "C:\\Users\\braaten\\Desktop\\vCard Generator\\"
-excelfile = "C:\\Users\\braaten\\Desktop\\vCard Generator\\vCard Data.xlsx"
+filepath = "C:\\Desktop\\vCard Generator\\"
+excelfile = "C:\\vCard Generator\\vCard Data.xlsx"
 df = pd.read_excel(excelfile, usecols="A:J").fillna('')
 last = df["Last Name"].tolist()
 first = df["First Name"].tolist()
