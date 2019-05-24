@@ -1,1 +1,1 @@
-Here's a particularly onerous task that was easily automated. .vcf files are basically just text files, so this script fills in the blanks with the pertinent strings from a .xlsx file.
+Here's a particularly onerous task that was easily automated. .vcf files are basically just text files, so this script fills in the blanks with the pertinent strings from a .xlsx file in a neat little for loop. Take the rest of day off!
