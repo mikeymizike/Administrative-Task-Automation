@@ -1,7 +1,7 @@
 import os
 import pandas as pd
-filepath = "C:\\Users\\braaten\\Desktop\\vCards\\"
-excelfile = "C:\\Users\\braaten\\OneDrive - NCQA\\scratch worksheet\\scratch worksheet.xlsx"
+filepath = "C:\\Users\\Desktop\\vCards\\"
+excelfile = "C:\\Users\\Desktop\\scratch worksheet.xlsx"
 df = pd.read_excel(excelfile, sheet_name = "vCards", usecols="A:J", dtype={"zipcode":'str'}).dropna()
 last = df["Last Name"].tolist()
 first = df["First Name"].tolist()
